@@ -1,10 +1,24 @@
-### Model Class Top Level Regions
+## Table of Contents
+  1. [Code Folding](#code-folding)
+      1. [Top Level](#top-level)
+          1. [Top Level Model Class Regions](#top-level-model-class-regions)
+          1. [Top Level Activity Class Regions](#top-level-activity-class-regions)
+      1. [Inner Level](#inner-level)
+          1. [Inner Level Model Class Regions](#inner-level-model-class-regions)
+          1. [Inner Level Activity Class Regions](#inner-level-activity-class-regions)
+  1. [Handling Clicks](#Handling Clicks)
 
-Use below regions in the model classes to support code folding.
+## Code Folding
+
+Use regions in Java classes to support code folding.
+
+### Top Level
+
+### Top Level Model Class Regions
 
 ````java
 
-class Person
+class Person {
   
   // region Declarations
   // endregion Declarations
@@ -21,14 +35,14 @@ class Person
   // region Instance Methods
   // endregion Instance Methods
 
-end
+}
 
 ````
 
-### Activity Class Top Level Regions
+### Top Level Activity Class Regions
 
 ````java
-class SettingsActivity {
+class SettingsActivity extends AppCompatActivity {
    
    // region Declarations
    // endregion Declarations
@@ -41,6 +55,8 @@ class SettingsActivity {
    
 }
 ````
+
+### Inner Level
 
 ### Handling Clicks
 
@@ -73,7 +89,3 @@ public void logoutButtonClicked(View view) {
     promptForLogout(SettingsActivity.this);
 }
 ````
-
-
-
-### Do
