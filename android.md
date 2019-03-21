@@ -25,6 +25,23 @@ end
 
 ````
 
+### Activity Class Top Level Regions
+
+````java
+class SettingsActivity {
+   
+   // region Declarations
+   // endregion Declarations
+   
+   // region onCreate
+   // endregion onCreate
+ 
+   // region Overrides
+   // endregion Overrides
+   
+}
+````
+
 ### Handling Clicks
 
 ##### Don't set clicklisteners from onCreate when you can directly implement android:onClick from xml.
