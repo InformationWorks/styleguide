@@ -53,6 +53,9 @@ class SettingsActivity extends AppCompatActivity {
    // region Overrides
    // endregion Overrides
    
+   // region onClick Functions
+   // endregion onClick Functions
+   
 }
 ````
 
