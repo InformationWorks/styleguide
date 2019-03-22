@@ -92,3 +92,9 @@ public void logoutButtonClicked(View view) {
     promptForLogout(SettingsActivity.this);
 }
 ````
+
+## Reference Links
+
+* [https://jeroenmols.com/blog/2016/03/07/resourcenaming/](https://jeroenmols.com/blog/2016/03/07/resourcenaming/)
+* [https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
+* [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
