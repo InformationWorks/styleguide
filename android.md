@@ -34,6 +34,9 @@ class Person {
   
   // region Instance Methods
   // endregion Instance Methods
+  
+  // region interface 
+  // endregion interface
 
 }
 
@@ -60,6 +63,30 @@ class SettingsActivity extends AppCompatActivity {
 ````
 
 ### Inner Level
+
+
+### Inner Level Model Class Regions
+
+````java
+
+class Person {
+  
+  // region Declarations
+
+      // region Final static
+      // endregion Final static
+      
+      // region Primitives
+      // endregion Primitives
+      
+      // region Objects
+      // endregion Objects
+
+  
+  // endregion Declarations
+}
+
+````
 
 ### Handling Clicks
 
