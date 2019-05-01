@@ -1,4 +1,5 @@
 ## Table of Contents
+  1. [Naming Convention](#naming-convention)
   1. [Code Folding](#code-folding)
       1. [Top Level](#top-level)
           1. [Top Level Model Class Regions](#top-level-model-class-regions)
@@ -7,6 +8,16 @@
           1. [Inner Level Model Class Regions](#inner-level-model-class-regions)
           1. [Inner Level Activity Class Regions](#inner-level-activity-class-regions)
   1. [Handling Clicks](#Handling Clicks)
+
+## Naming Convention
+
+| Component   | Class Name | Layout Name |
+|---|---|---|
+| Activity | UserProfileActivity | activity_user_profile.xml |
+| Fragment | SignUpFragment | fragment_sign_up.xml |
+| Dialog | ChangePasswordDialog | dialog_change_password.xml |
+| DialogFragment | ApplyCouponCodeDialogFragment | dialog_fragment_apply_coupon_code_dialog.xml |
+| AdapterView Item | - | item_person.xml |
 
 ## Code Folding
 
