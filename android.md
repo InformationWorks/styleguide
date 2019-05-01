@@ -16,7 +16,7 @@
 | Activity | UserProfileActivity | activity_user_profile.xml |
 | Fragment | SignUpFragment | fragment_sign_up.xml |
 | Dialog | ChangePasswordDialog | dialog_change_password.xml |
-| DialogFragment | ApplyCouponCodeDialogFragment | dialog_fragment_apply_coupon_code_dialog.xml |
+| DialogFragment | ApplyCouponCodeDialogFragment | dialog_fragment_apply_coupon_code.xml |
 | AdapterView Item | - | item_person.xml |
 
 ## Code Folding
