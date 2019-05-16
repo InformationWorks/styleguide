@@ -44,3 +44,4 @@ end
 * [Rubocop Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
 * [Airbnb Ruby Style Guide](https://github.com/airbnb/ruby)
 * [Shopify Ruby Style Guide](https://shopify.github.io/ruby-style-guide/)
+* [Ruby on Rails Official Coding Guide](https://guides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions)
