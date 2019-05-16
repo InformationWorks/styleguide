@@ -37,3 +37,10 @@ class CreateStates < ActiveRecord::Migration[5.0]
   end
 end
 ````
+
+## Reference Links
+
+* [Rubocop Rails Style Guide](https://github.com/rubocop-hq/rails-style-guide)
+* [Rubocop Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
+* [Airbnb Ruby Style Guide](https://github.com/airbnb/ruby)
+* [Shopify Ruby Style Guide](https://shopify.github.io/ruby-style-guide/)
