@@ -38,6 +38,38 @@ class CreateStates < ActiveRecord::Migration[5.0]
 end
 ````
 
+### Namespacing Models & Controllers
+
+Always use module nesting vs :: syntax for defining models and controllers within namespace.
+
+#### Good
+
+````ruby
+# /app/models/billing/subscription.rb
+module Billing
+  class Subscription < ApplicationRecord
+  end
+end
+
+# /app/controllers/billing/subscriptions_controller.rb
+module Billing
+  class SubscriptionsController < ApplicationController
+  end
+end
+````
+
+#### Bad
+
+````ruby
+# /app/models/billing/subscription.rb
+class Billing::Subscription < ApplicationRecord
+end
+
+# /app/controllers/billing/subscriptions_controller.rb
+class Billing::SubscriptionsController < ApplicationController
+end
+````
+
 ## Reference Links
 
 * [Rubocop Rails Style Guide](https://github.com/rubocop-hq/rails-style-guide)
