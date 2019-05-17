@@ -8,9 +8,17 @@
 
 ### Migrations
 
-* Use references instead of integer id.
+#### Database Fields Naming Convention
 
-#### Good
+| Field Type  |  Prefix  | Suffix  |
+|---|---|---|
+| Date  | - | _on |
+| Datetime  | - | _at  |
+| Boolean  | is_ or has_ | - |
+
+#### Use references instead of integer id.
+
+##### Good
 
 ````ruby
 class CreateStates < ActiveRecord::Migration[5.0]
@@ -24,7 +32,7 @@ class CreateStates < ActiveRecord::Migration[5.0]
 end
 ````
 
-#### Bad
+##### Bad
 
 ````ruby
 class CreateStates < ActiveRecord::Migration[5.0]
