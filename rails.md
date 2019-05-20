@@ -10,11 +10,11 @@
 
 #### Database Fields Naming Convention
 
-| Field Type  |  Prefix  | Suffix  |
-|---|---|---|
-| Date  | - | _on |
-| Datetime  | - | _at  |
-| Boolean  | is_ or has_ | - |
+| Field Type  |  Prefix  | Suffix  | Example |
+|---|---|---|----|
+| Date  | - | _on | submitted_on |
+| Datetime  | - | _at  | approved_at |
+| Boolean  | is_ or has_ | - | is_active or has_access |
 
 #### Use references instead of integer id.
 
