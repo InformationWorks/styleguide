@@ -19,6 +19,52 @@
 | DialogFragment | ApplyCouponCodeDialogFragment | dialog_fragment_apply_coupon_code.xml |
 | AdapterView Item | - | item_person.xml |
 
+## UI Elements Naming Convention
+
+| Component   | Prefix | Example @id | Java Variable |
+|---|---|---|---|
+| Button | btn_ | btn_login | btnLogin |
+| TextView | tv_ | tv_email | tvEmail |
+| ProgressBar | pb_ | pb_loading_countries | pbLoadingCountries |
+
+TODO: Add below examples to the above table.
+
+* Frame Layout: fl 
+* Linear Layout: ll 
+* Table Layout: tl 
+* Table Row: tr
+* Grid Layout: gl 
+* Relative Layout: rl
+
+* Text View: tv 
+* Button: bt 
+* Check Box: cb 
+* Switch: sw 
+* Toggle Button: tb
+* Image Button: ib 
+* Image View: iv 
+* Progress Bar: pb
+* Seek Bar: sb 
+* Rating Bar: rb 
+* Spinner: sp 
+* WebView: wv 
+* Edit Text: et
+
+* Radio Group: rg 
+* List View: lv 
+* Grid View: gv 
+* Expandable List View: el 
+* Scroll View: sv 
+* Horizontal Scroll View: hs 
+* Search View:* se 
+* Tab Host: th 
+* Video View: vv 
+* Dialer Filter: df
+
+* Include: ic 
+* Fragment: fr 
+* Custom View (other): cv
+
 ## Code Folding
 
 Use regions in Java classes to support code folding.
