@@ -80,6 +80,7 @@ end
 
 ## Reference Links
 
+* [Ruby Style Guide](https://rubystyle.guide/)
 * [Rubocop Rails Style Guide](https://github.com/rubocop-hq/rails-style-guide)
 * [Rubocop Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
 * [Airbnb Ruby Style Guide](https://github.com/airbnb/ruby)
