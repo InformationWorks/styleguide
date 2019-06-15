@@ -1,3 +1,9 @@
+### Use below tools in the project to maintain code quality
+
+* [RDoc](https://ruby.github.io/rdoc/)
+* [Simplecov](https://github.com/colszowka/simplecov)
+* [Rubocop](http://www.rubocop.org/en/stable/)
+
 ### Routes
 
 * Use only single quotes for defining routes.
