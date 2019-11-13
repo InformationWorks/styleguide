@@ -4,6 +4,11 @@
 * [Simplecov](https://github.com/colszowka/simplecov)
 * [Rubocop](http://www.rubocop.org/en/stable/)
 
+### Models
+
+* Use below file as an example for code folding.
+  * https://gist.github.com/harshalbhakta/39a332a5792195a4380bb28b5cefc964
+
 ### Routes
 
 * Use only single quotes for defining routes.
