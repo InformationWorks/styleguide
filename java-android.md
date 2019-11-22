@@ -13,11 +13,11 @@
 
 | Component   | Class Name | Layout Name |
 |---|---|---|
-| Activity | UserProfileActivity | activity_user_profile.xml |
-| Fragment | SignUpFragment | fragment_sign_up.xml |
-| Dialog | ChangePasswordDialog | dialog_change_password.xml |
-| DialogFragment | ApplyCouponCodeDialogFragment | dialog_fragment_apply_coupon_code.xml |
-| AdapterView Item | - | item_person.xml |
+| Activity | UserProfileScreenActivity | user_profile_screen_activity.xml |
+| Fragment | SignUpScreenFragment | sign_up_screen_fragment.xml |
+| Dialog | ChangePasswordScreenConfirmationDialog | change_password_screen_confirmation_dialog.xml |
+| DialogFragment | PaymentScreenApplyCouponCodeDialogFragment | payment_screen_apply_coupon_code_dialog_fragment.xml |
+| AdapterView Item | - | profile_screen_item_person.xml |
 
 ## UI Elements Naming Convention
 
