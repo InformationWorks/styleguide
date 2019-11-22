@@ -4,6 +4,48 @@
 * [Simplecov](https://github.com/colszowka/simplecov)
 * [Rubocop](http://www.rubocop.org/en/stable/)
 
+### Models
+
+#### Code Folding
+
+Below are the regions for the Ruby classes. ([Example](https://gist.github.com/harshalbhakta/39a332a5792195a4380bb28b5cefc964))
+
+
+````ruby
+class User
+
+  #region Setup
+  
+  #region Validations
+  
+  #region Validation Functions
+  
+  #region belongs_to
+  
+  #region has_one
+  
+  #region has_many
+  
+  #region scopes
+    
+  #region before_callbacks
+  
+  #region after_callbacks
+  
+  #region Public Class Methods
+  
+  #region Public Instance Methods
+  
+  private
+  
+  #region Private Class Methods
+  
+  #region Private Instance Methods
+
+end
+
+````
+
 ### Routes
 
 * Use only single quotes for defining routes.
