@@ -14,33 +14,46 @@ Below are the regions for the Ruby classes. ([Example](https://gist.github.com/h
 ````ruby
 class User
 
-  #region Setup
+  #=region Setup
+  #=endregion
   
-  #region Validations
+  #=region Validations
+  #=endregion
   
-  #region Validation Functions
+  #=region Validation Functions
+  #=endregion
   
-  #region belongs_to
+  #=region belongs_to
+  #=endregion
   
-  #region has_one
+  #=region has_one
+  #=endregion
   
-  #region has_many
+  #=region has_many
+  #=endregion
   
-  #region scopes
+  #=region scopes
+  #=endregion
     
-  #region before_callbacks
+  #=region before_callbacks
+  #=endregion
   
-  #region after_callbacks
+  #=region after_callbacks
+  #=endregion
   
-  #region Public Class Methods
+  #=region Public Class Methods
+  #=endregion
   
-  #region Public Instance Methods
+  #=region Public Instance Methods
+  #=endregion
   
   private
   
-  #region Private Class Methods
+  #=region Private Class Methods
+  #=endregion
   
-  #region Private Instance Methods
+  #=region Private Instance Methods
+  #=endregion
 
 end
 
