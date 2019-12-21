@@ -1,4 +1,15 @@
-### Use below tools in the project to maintain code quality
+## Table Of Content
+
+* [Code Quality Tools](#code-quality-tools)  
+* [Models](#models)  
+  * [Code Folding](#code-folding)
+  * [scope](#scope)
+    * [Single Line Scope](#single-line-scope)
+    * [Multi Line Scope](#multi-line-scope)
+* [Routes](#routes)
+* [Gemfile](#gemfile)
+
+### Code Quality Tools
 
 * [RDoc](https://ruby.github.io/rdoc/)
 * [Simplecov](https://github.com/colszowka/simplecov)
@@ -59,6 +70,29 @@ end
 
 ````
 
+#### Scope
+
+##### Single Line Scope
+
+````ruby
+scope :started, -> { where(status_code: OrderStatusCode::STARTED) }
+````
+
+##### Multi Line Scope
+
+````ruby
+scope :created_on,
+      lambda { |date|
+        where(
+          [
+            "orders.created_at >= ? AND orders.created_at <= ?",
+            date.beginning_of_day,
+            date.end_of_day
+          ]
+        )
+      }
+````
+
 ### Routes
 
 * Use only single quotes for defining routes.
@@ -107,7 +141,7 @@ class CreateStates < ActiveRecord::Migration[5.0]
 end
 ````
 
-### Namespacing Models & Controllers
+### WIP: Namespacing Models & Controllers
 
 Always use module nesting vs :: syntax for defining models and controllers within namespace.
 
