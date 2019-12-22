@@ -6,6 +6,8 @@
   * [scope](#scope)
     * [Single Line Scope](#single-line-scope)
     * [Multi Line Scope](#multi-line-scope)
+  * [has_many](#has-many)
+    * [With Condition](#with-condition)
 * [Routes](#routes)
 * [Gemfile](#gemfile)
 
@@ -91,6 +93,18 @@ scope :created_on,
           ]
         )
       }
+````
+
+#### has_many
+
+##### With Condition
+
+````ruby
+has_many :approved_users,
+         -> { where("collection_users.approved = true") },
+         through: :collection_users,
+         class_name: "User",
+         source: :user
 ````
 
 ### Routes
